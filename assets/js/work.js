@@ -2,37 +2,37 @@ var work={
   exp: [{
     position: "Logistics Sortation Associate",
     company: "Amazon",
-    dates: "September 2016-Present",
+    dates: "September 2016 - Present",
     location: "Austin, TX",
     responsabilities: [""],
   },{
     position: "Instructor",
     company: "American Robotics Academy",
-    dates: "September 2016-December 2016",
+    dates: "September 2016 - December 2016",
     location: "Austin, TX",
     responsabilities: [""]
   },{
     position: "Department Manager",
     company: "Walmart",
-    dates: "July 2015-March 2016",
+    dates: "July 2015 - March 2016",
     location: "Laredo, TX",
     responsabilities: [""]
   },{
     position: "Photo Sales Associate",
     company: "Walmart",
-    dates: "June 2014-July 2015",
+    dates: "June 2014 - July 2015",
     location: "Laredo, TX",
     responsabilities: [""]
   },{
     position: "Photo Sales Associate",
     company: "Walmart",
-    dates: "August 2012-March 2014",
+    dates: "August 2012 - March 2014",
     location: "Laredo, TX",
     responsabilities: [""]
   },{
     position: "Sales Associate",
     company: "Ueta Duty Free",
-    dates: "November 2010-January 2011",
+    dates: "November 2010 - January 2011",
     location: "Laredo, TX",
     responsabilities: [""]
   }],
