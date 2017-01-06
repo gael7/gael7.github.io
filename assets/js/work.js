@@ -39,9 +39,9 @@ var work={
   displayWork: function(){
     for(var i=work.exp.length-1; i>=0; i--){
       if(i%2===0){
-        $("#workExperience").prepend("<div class='row'><div class='col s12 m6'><div class='card blue-grey darken-1'><div class='card-content white-text'><span class='card-title'>"+work.exp[i].position+"</span><ul style='font-style:italic; font-size:18px'>"+work.exp[i].company+"</ul><ul style='font-style:italic;'>"+work.exp[i].dates+"</ul><li>"+work.exp[i].responsabilities+"</li></div><div class='card-action white-text'><p>"+work.exp[i].location+"</p></div></div></div></div>");
+        $("#workExperience").prepend("<div class='row'><div class='col s12 m6'><div class='card blue-grey darken-2'><div class='card-content white-text'><span class='card-title'>"+work.exp[i].position+"</span><ul style='font-style:italic; font-size:18px'>"+work.exp[i].company+"</ul><ul style='font-style:italic;'>"+work.exp[i].dates+"</ul><li>"+work.exp[i].responsabilities+"</li></div><div class='card-action white-text'><p>"+work.exp[i].location+"</p></div></div></div></div>");
     } else {
-        $("#workExperience").prepend("<div class='row'><div class='col s12 m6 right'><div class='card blue-grey darken-1'><div class='card-content white-text'><span class='card-title'>"+work.exp[i].position+"</span><ul style='font-style:italic; font-size:18px'>"+work.exp[i].company+"</ul><ul style='font-style:italic;'>"+work.exp[i].dates+"</ul><li>"+work.exp[i].responsabilities+"</li></div><div class='card-action white-text'><p>"+work.exp[i].location+"</p></div></div></div></div>");
+        $("#workExperience").prepend("<div class='row'><div class='col s12 m6 right'><div class='card blue-grey darken-2'><div class='card-content white-text'><span class='card-title'>"+work.exp[i].position+"</span><ul style='font-style:italic; font-size:18px'>"+work.exp[i].company+"</ul><ul style='font-style:italic;'>"+work.exp[i].dates+"</ul><li>"+work.exp[i].responsabilities+"</li></div><div class='card-action white-text'><p>"+work.exp[i].location+"</p></div></div></div></div>");
       }
     }
   }

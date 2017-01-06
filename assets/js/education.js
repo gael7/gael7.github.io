@@ -22,9 +22,9 @@ var edu={
   displayEdu: function(){
     for (i=0; i<edu.his.length; i++){
       if (i%2===0){
-    $("#eduHistory").append("<div class='row'><div class='col s12 m6'><div class='card blue-grey darken-1'><div class='card-content white-text'><span class='card-title'>"+edu.his[i].name+"</span><ul style='font-style:italic; font-size:18px'>"+edu.his[i].degree+", "+edu.his[i].field+"</ul><ul style='font-style:italic;'>"+edu.his[i].date+"</ul><li>"+edu.his[i].awards+"</li></div><div class='card-action white-text'><p>"+"</p></div></div></div></div>");
+    $("#eduHistory").append("<div class='row'><div class='col s12 m6'><div class='card blue-grey darken-2'><div class='card-content white-text'><div class='col s2'><img src='assets/images/ut.jpg' alt='' class='circle responsive-img'></div><span class='card-title'>"+edu.his[i].name+"</span><ul style='font-style:italic; font-size:18px'>"+edu.his[i].degree+", "+edu.his[i].field+"</ul><ul style='font-style:italic;'>"+edu.his[i].date+"</ul><li>"+edu.his[i].awards+"</li></div><div class='card-action white-text'><p>"+"</p></div></div></div></div>");
   } else {
-    $("#eduHistory").append("<div class='row'><div class='col s12 m6 right'><div class='card blue-grey darken-1'><div class='card-content white-text'><span class='card-title'>"+edu.his[i].name+"</span><ul style='font-style:italic; font-size:18px'>"+edu.his[i].degree+", "+edu.his[i].field+"</ul><ul style='font-style:italic;'>"+edu.his[i].date+"</ul><li>"+edu.his[i].awards+"</li></div><div class='card-action white-text'><p>"+"</p></div></div></div></div>");
+    $("#eduHistory").append("<div class='row'><div class='col s12 m6 right'><div class='card blue-grey darken-2'><div class='card-content white-text'><span class='card-title'>"+edu.his[i].name+"</span><ul style='font-style:italic; font-size:18px'>"+edu.his[i].degree+", "+edu.his[i].field+"</ul><ul style='font-style:italic;'>"+edu.his[i].date+"</ul><li>"+edu.his[i].awards+"</li></div><div class='card-action white-text'><p>"+"</p></div></div></div></div>");
   }
   }
   },

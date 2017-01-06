@@ -23,7 +23,7 @@ var index={
   },
   displayIconSection: function(){
     for (i=0; i<index.iconInfo.length; i++){
-    $("#iconSection").append("<div class='col s12 m4'><div class='icon-block'><h2 class='center blue-grey-text'><i class='material-icons'>"+index.iconInfo[i].icon+"</i></h2><h5 class='center'>"+index.iconInfo[i].title+"</h5><p class='light'>"+index.iconInfo[i].info+"</p></div></div>");
+    $("#iconSection").append("<div class='col s12 m4'><div class='icon-block'><h2 class='center blue-grey-text text-darken-2'><i class='material-icons'>"+index.iconInfo[i].icon+"</i></h2><h5 class='center'>"+index.iconInfo[i].title+"</h5><p class='light'>"+index.iconInfo[i].info+"</p></div></div>");
   }
   }
 };
