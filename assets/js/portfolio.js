@@ -39,7 +39,6 @@ var portfolio={
     var techno="";
     for (e=0; e<portfolio.apps[app].technologies.length; e++){
       techno+="<div class='chip'>"+portfolio.apps[app].technologies[e]+"</div>";
-      console.log(techno);
     }
     return techno;
   },

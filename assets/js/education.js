@@ -8,7 +8,22 @@ var edu={
     field: "Full Stack Flex Program",
     date: "Jul 2016 - Feb 2017",
     visit: "https://www.codingbootcamputaustin.com",
-    activities: [],
+    activities: [{
+      name: "Austin City Incident Map",
+      role: "Team Project",
+      year: "2016",
+      description: "Displaying on an Austin map different amounts and types of incidents that had happen since February 2015."
+    },{
+      name: "Cheevr",
+      role: "Team Project",
+      year: "2016",
+      description: "Cheevr utilizes Alexa's voice recognition to quizz us on content create it on our app."
+    },{
+      name: "Antique",
+      role: "Personal Project",
+      year: "2017",
+      description: "This app makes the management of a coffee shop easier using it as a register, manage the products and receipts."
+    }],
   },{
     id: "itnl",
     name: "Instituto Tecnológico de Nuevo Laredo",
@@ -63,7 +78,10 @@ var edu={
     for (i=0; i<edu.his.length; i++){
       if (i%2===0){
     $("#eduHistory").append("<div class='row' id='"+edu.his[i].id+"'><div class='col s12 m6'><div class='card blue-grey darken-2'><div class='card-content white-text'><div class='col s3'><img src='assets/images/ut.jpg' alt='UT Logo' class='circle responsive-img'></div><span class='card-title'>"+edu.his[i].name+"</span><ul style='font-style:italic; font-size:18px'>"+edu.his[i].degree+", "+edu.his[i].field+"</ul><ul style='font-style:italic;'>"+edu.his[i].date+"</ul></div><div class='card-action white-text'><a href='"+edu.his[i].visit+"'>Visit</a></div></div></div></div>");
-    $("#"+edu.his[i].id).append("<div class='col s12 m6'><h5 class='center'>Projects</h5></div>");
+    $("#"+edu.his[i].id).append("<div class='col s12 m6' id='activities"+edu.his[i].id+"'><h5 class='center'>Projects</h5></div>");
+    for (a=0; a<edu.his[i].activities.length; a++){
+      $("#activities"+edu.his[i].id).append("<ul><strong>"+edu.his[i].activities[a].year+"-</strong>  "+edu.his[i].activities[a].name+"&emsp;<strong>"+edu.his[i].activities[a].role+"</strong><br>"+edu.his[i].activities[a].description+"</ul>");
+    }
   } else {
     $("#eduHistory").append("<div class='row' id='"+edu.his[i].id+"'><div class='col s12 m6 right'><div class='card blue-grey darken-2'><div class='card-content white-text'><div class='col s3'><img src='assets/images/tec.jpg' alt='ITNL Logo' class='circle responsive-img'></div><span class='card-title'>"+edu.his[i].name+"</span><ul style='font-style:italic; font-size:18px'>"+edu.his[i].degree+", "+edu.his[i].field+"</ul><ul style='font-style:italic;'>"+edu.his[i].date+"</ul></div><div class='card-action white-text'><a href='"+edu.his[i].visit+"'>Visit</a></div></div></div></div>");
     $("#"+edu.his[i].id).append("<div class='col s12 m6' id='activities"+edu.his[i].id+"'><h5 class='center'>Activities</h5></div>");
