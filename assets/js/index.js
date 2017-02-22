@@ -29,10 +29,10 @@ var index={
     }
   },
   displayQuote:function(){
-    $("#quote").append("<h3 class='header center col s12 light'>'"+index.quote[0]+"'</h3><h4 class='right'>"+index.quote[1]+"</h4>");
+    $("#quote").append('<h4 class="header center col s12 light">"'+index.quote[0]+'"</h4><h5 class="right">'+index.quote[1]+'</h5>');
   },
   displayQuote2: function(){
-      $("#quote2").append("<h3 class='header center col s12 light'>'"+index.quote2[0]+"'</h3><h4 class='right'>"+index.quote2[1]+"</h4>");
+      $("#quote2").append('<h4 class="header center col s12 light">"'+index.quote2[0]+'"</h4><h5 class="right">'+index.quote2[1]+'</h5>');
   },
 };
 

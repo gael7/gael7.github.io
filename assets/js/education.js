@@ -1,6 +1,6 @@
 var edu={
-  intro1: " I currently study at The Coding Bootcamp at UT Austin to become a Full Stack Developer. On 2014 I graduated as a Mechatronic Engineer with an overall of 88.29 from Instituto Tecnológico de Nuevo Laredo.",
-  intro2: " During my nine semesters at university I had the chance to be involve in other activities outside the classroom. I participated on 3 national robotics contests called “Torneo Mexicano de Robótica” on different cities around Mexico. I was elected president from the Mechatronic Engineer Committee to impulse the career and the organization of the annual symposium.",
+  intro1: " I recently graduated from The Coding Bootcamp at UT Austin to become a Full Stack Developer. On 2014 I graduated as a Mechatronic Engineer with an overall of 88.29 from Instituto Tecnológico de Nuevo Laredo.",
+  intro2: "During university I participated on 3 national robotics contests called “Torneo Mexicano de Robótica” on different cities around México.",
   his:[{
     id: "ut",
     name: "The University of Texas at Austin",

@@ -1,4 +1,5 @@
 var portfolio={
+  intro: "Here are 5 of my best apps made during my 24 week Coding Boot Camp with a screenshot of the main screen, the technologies used for it, a brief description of the functionality and links for the github project and the web app.",
   apps: [{
     name: "Week-3-Game",
     description: "This is a Pokémon hangman game with 4 of your favorite Pokémon from the first generation. The game will start after your click on the play button and the hyphens for the letters of your Pokémon will be display. If you need a little help to guess the answer you can click on the hint button that will display a shadow of the Pokémon. After you guess the name you will see you Pokémon.",
@@ -29,12 +30,15 @@ var portfolio={
     screenshot: "giphy-apiSC.png"
   },{
     name: "News-scrape",
-    description: "An app that scrape news from the Real Madrid webpage and let you add comments.",
+    description: "This is an app that will scrape news from the Real Madrid web page getting the headline, the picture and a brief description on the new then you can add one note for it. First thing to do in the app is click on the Scrape button that will do the scrape for us the 10 latest news  and then we go back to the main page and you will see those news ready to add notes to add with the news you had before. In order to add a note to the news you need to press the note button inside the new panel and you will see a modal where you write the title of the note and the content of the note.",
     technologies: ["HTML","CSS", "Bootstrap", "Node.js", "jQuery", "MongoDB"],
     github: "https://github.com/gael7/news-scrape",
     heroku: "https://lit-mesa-52894.herokuapp.com",
     screenshot: "news-scrapeSC.png"
   }],
+  displayIntro: function(){
+    $("#portIntro").append("<h5 class='light' style='text-align:justify; text-indent:50px'>"+portfolio.intro+"</h5>");
+  },
   technoLoop: function(app){
     var techno="";
     for (e=0; e<portfolio.apps[app].technologies.length; e++){
@@ -55,5 +59,6 @@ var portfolio={
 };
 
 $(document).ready(function(){
+  portfolio.displayIntro();
 	portfolio.displayCards();
 });
