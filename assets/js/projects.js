@@ -36,7 +36,7 @@ var projects={
     ],
     technologies: ["HTML", "CSS", "Bootstrap", "jQuery", "NodeJs", "Express", "MongoDB", "Moongose", "BcryptJS"],
     github: "https://github.com/gael7/antique",
-    heroku: "https://antiquenl.herokuapp.com",
+    heroku: "https://www.dropbox.com/s/1zmorh2lmcfv6x4/Antique.mp4?dl=0",
     screenshot: "antique.png"
   }],
   displayIntro: function(){
@@ -64,6 +64,7 @@ var projects={
       }
       }
     }
+    $('a[href$="'+projects.proj[2].heroku+'"]').html("Video");
     }
 };
 
